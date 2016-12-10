@@ -25,3 +25,6 @@ You can access the returncode, stdout, and stderr of your SAS run:
 
 `result.stderr`
 
+
+This current copy is a fork of the wrds inlinesas module.  I did this so that I could use it to access TAQ.
+It is designed to be run on the WRDS server. 
