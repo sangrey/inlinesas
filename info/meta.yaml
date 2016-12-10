@@ -22,4 +22,5 @@ build:
   script: python setup.py install
 
 about:
-  license_file: LICENSE 
+  license_file: LICENSE.txt
+
