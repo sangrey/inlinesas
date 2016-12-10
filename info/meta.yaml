@@ -1,0 +1,25 @@
+package:
+  name: inlinesas 
+  version: {{environ.get('GIT_DESCRIBE_TAG', ' ') }}
+
+build:
+  number: {{environ.get('GIT_DESCRIBE_NUMBER', 0)}}
+
+source:
+   git_url: ../
+
+
+requirements:
+  build:
+    - python >=3.5
+    - pandas
+    - setuptools
+  run:
+    - python >=3.5
+    - pandas
+
+build:
+  - script: python setup.py install
+
+about:
+  license_file: LICENSE 
