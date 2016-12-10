@@ -19,7 +19,7 @@ requirements:
     - pandas
 
 build:
-  - script: python setup.py install
+  script: python setup.py install
 
 about:
   license_file: LICENSE 
